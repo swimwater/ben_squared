@@ -71,8 +71,8 @@ dvd_logo_rect = dvd_logo.get_rect()
 # Initial position and speed
 dvd_logo_rect.x = random.randint(0, screen_width - dvd_logo_rect.width)
 dvd_logo_rect.y = random.randint(0, screen_height - dvd_logo_rect.height)
-speed_x = 20
-speed_y = 20
+speed_x = 1
+speed_y = 1
 
 # Corner hit counter
 corner_count = 0
